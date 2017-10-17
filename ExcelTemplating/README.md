@@ -10,6 +10,8 @@
 
 3. Templating codes are in the notebook. Process crawled data, write template and save it to a file
 
+# [Go to the Notebook](https://github.com/neurotichl/Random/blob/master/ExcelTemplating/excel.ipynb)
+
 ---
 
 # Notes
