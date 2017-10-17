@@ -21,7 +21,7 @@ In this example, I do a simple demonstration on how to create template using pd.
 
 3. Templating codes are in the notebook. Process crawled data, write template and save it to a file
 
-# [Go to the Notebook](https://github.com/neurotichl/Random/blob/master/ExcelTemplating/excel.ipynb)
+#  >>> [Go to the Notebook](https://github.com/neurotichl/Random/blob/master/ExcelTemplating/excel.ipynb) <<<
 
 ---
 
