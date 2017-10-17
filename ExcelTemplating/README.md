@@ -1,5 +1,16 @@
 # Excel Template using Pandas ExcelWriter
+I found it a tedious work when doing documentation for data transformation. For example, one need to record the source of the data (which database?), the column names, the renamed-column names, transformation logic (left join, filter XXX= ??, lag a column by ??, group into categories of 5,... etc) and remarks into Excel file for easy reference in future. As the number of table increase, in which the format, template and transformation logic are usually repetitive, I have decided to stop doing it manually. Instead, with the help of ExcelWriter from pandas, I create a template for the documentation, and 'paste' the dataframe with the information I needed into it. e.g. of the dataframe:
 
+Table|Column|Name|Logic
+---|---|---|---
+Card|F_NME|First Name|capitalize all the characters
+Transaction|AMT|Spend Amount|sum(AMT)
+
+The df will be fed to the templat and look gorgeous later. (Bolded header text, with colored backgroun etc)
+
+In this example, I do a simple demonstration on how to create template using pd.ExcelWriter. The data used here is NOT the usual data I process in my work, I just simply crawled data (i.e. skill points and statistics of the anime characters from Hunter x Hunter) from wikia. 
+
+# Steps
 1. Crawl Hunter x Hunter info from [Hunterpedia](http://hunterxhunter.wikia.com/wiki/Hunterpedia). Python script is `hunter.py`
     ```
     python hunter.py
