@@ -6,9 +6,9 @@ Table|Column|Name|Logic
 Card|F_NME|First Name|capitalize all the characters
 Transaction|AMT|Spend Amount|sum(AMT)
 
-The df will be fed to the templat and look gorgeous later. (Bolded header text, with colored backgroun etc)
+The df will be fed to the template and look gorgeous later. (Bolded header text, with colored background etc)
 
-In this example, I do a simple demonstration on how to create template using pd.ExcelWriter. The data used here is NOT the usual data I process in my work, I just simply crawled data (i.e. skill points and statistics of the anime characters from Hunter x Hunter) from wikia. 
+In this example, I do a simple demonstration on how to create template using pd.ExcelWriter. The data used here is NOT the usual data I process in my work, I just simply crawled the data (i.e. skill points and statistics of the anime characters from Hunter x Hunter) from wikia. 
 
 # Steps
 1. Crawl Hunter x Hunter info from [Hunterpedia](http://hunterxhunter.wikia.com/wiki/Hunterpedia). Python script is `hunter.py`
@@ -23,6 +23,8 @@ In this example, I do a simple demonstration on how to create template using pd.
 
 #  >>> [Go to the Notebook](https://github.com/neurotichl/Random/blob/master/ExcelTemplating/excel.ipynb) <<<
 
+# Results:
+![template](https://github.com/neurotichl/Random/blob/master/ExcelTemplating/hunter_biography.PNG)
 ---
 
 # Notes
