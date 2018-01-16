@@ -9,3 +9,7 @@ Random folder containing random small projects
    - Crawl Penang top shopping mall using requests
    - Obtain the latitude and longitude of the shop according to the address crawled
    - Plot the shops with their information on the map
+
+3. [Selenium](https://github.com/neurotichl/Random/blob/master/Selenium.ipynb)
+   - Use selenium to book airticket
+   - Real usecase is to use selenium to login your account, this is just a demo on the library
