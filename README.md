@@ -13,3 +13,7 @@ Random folder containing random small projects
 3. [Selenium](https://github.com/neurotichl/Random/blob/master/Selenium.ipynb)
    - Use selenium to book airticket
    - Real usecase is to use selenium to login your account, this is just a demo on the library
+
+4. [pyMQL & Psycopg2](https://github.com/neurotichl/Random/blob/master/pyMySQL%20%26%20Psycopg2.ipynb)
+   - Wrote a general class for both libs
+   - practice @classmethod and @staticmethod
