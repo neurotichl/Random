@@ -1,5 +1,5 @@
 # Random
-Random folder containing random small projects
+Random folder containing random small projects or demo codes for reference purpose
 
 1. [Excel Templating](https://github.com/neurotichl/Random/tree/master/ExcelTemplating)
    - Crawl Hunter x Hunter's main characters battle stats from hunterwiki
@@ -13,20 +13,17 @@ Random folder containing random small projects
 3. [Selenium](https://github.com/neurotichl/Random/blob/master/Selenium.ipynb)
    - Use selenium to book airticket
    - Real usecase is to use selenium to login your account, this is just a demo on the library
-
-4. [pyMQL & Psycopg2](https://github.com/neurotichl/Random/blob/master/pyMySQL%20%26%20Psycopg2.ipynb)
-   - Wrote a general class for both libs
-   - practice @classmethod and @staticmethod
    
-5. [HDFS3](https://github.com/neurotichl/Random/blob/master/HDFS3.ipynb)
-   - Install hdfs3
-   - Demo some API
-   
-6. [Dremio](https://github.com/neurotichl/Random/blob/master/dremio_setup.sh)
-   - Install & run dremio 
-   - Install dremio ODBC (CentOS & Ubuntu)
+4. [Setups](https://github.com/neurotichl/Random/tree/master/Setups)
+   - [HDFS3](https://github.com/neurotichl/Random/blob/master/HDFS3.ipynb)
+      - Install hdfs3
+      - Demo some API
+   - [Dremio](https://github.com/neurotichl/Random/blob/master/dremio_setup.sh)
+      - Install & run dremio 
+      - Install dremio ODBC (CentOS & Ubuntu)
 
-7. [Utility](https://github.com/neurotichl/Random/blob/master/Argparse%20%26%20yaml%20reader.ipynb)
-   - argparse
-   - yaml reader
+5. [Utility](https://github.com/neurotichl/Random/tree/master/Utility)
+   - [argparse & yaml reader](https://github.com/neurotichl/Random/blob/master/Argparse%20%26%20yaml%20reader.ipynb)
+   - [pyMQL & Psycopg2](https://github.com/neurotichl/Random/blob/master/pyMySQL%20%26%20Psycopg2.ipynb)
+      - practice @classmethod and @staticmethod
    
