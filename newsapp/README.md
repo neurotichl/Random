@@ -1,6 +1,6 @@
 ## News Tagging by SpaCy Entity Recognition
 
-View the notebook ![here](https://github.com/neurotichl/Random/blob/master/newsapp/newsapp/resources/Travel%20Articles.ipynb)
+View the notebook [here](https://github.com/neurotichl/Random/blob/master/newsapp/newsapp/resources/Travel%20Articles.ipynb)
 
 ### Output
 - Navigating the news by tags.
