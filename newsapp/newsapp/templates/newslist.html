@@ -1,0 +1,36 @@
+
+<head>
+  <title> News List</title>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='newslist.css')}}">
+</head>
+
+<body>
+<div class="container">
+   <h2>{{ header|safe }}</h2>
+   <form action="/news" method="POST">
+	   <ul class="responsive-table">
+	      <li class="table-header">
+	         <div class="col col-1">Title</div>
+	         <div class="col col-2">Author</div>
+	         <div class="col col-3">Date</div>
+	         <div class="col col-4">Tags</div>
+	      </li>
+
+	  	{% for news in news_list %}
+		<li class="table-row">
+	         <div class="col col-1"><a href="../{{ news['index'] }}">{{ news['Title'] }}</a></div>
+	         <div class="col col-2">{{ news['Author'] }}</div>
+	         <div class="col col-3">{{ news['Publish Date'] }}</div>
+	         <div class="col col-4">
+	         {% set tags = news['article_tag'].split('|') %}
+			 {% for tag in tags %}
+				<input class="myButton" type="submit" name="submit_button" value="{{ tag }}">
+			 {% endfor %}
+			</div>
+	    </li>
+	  	{% endfor %}
+	     
+	   </ul>
+   </form>
+</div>
+</body>

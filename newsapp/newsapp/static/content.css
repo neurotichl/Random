@@ -1,0 +1,48 @@
+h1 {  color: #d04764 ; font-family: 'Bitter', serif; font-size: 50px; font-weight: normal; line-height: 54px; margin: 0 0 54px; }
+img {
+    max-width:80%;
+    height:auto;
+    display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+	a { color: #c73036; font-family: Georgia, serif; text-decoration: underline; }
+	a:hover { color: #333333; text-decoration: underline; }
+
+	body {
+		background-image: url("https://pbs.twimg.com/profile_images/906934922392117248/QkmHyTW5.jpg");
+		background-repeat: repeat;
+		background-size: 200px 200px;
+	}
+	.container {
+	background-color: rgb(245, 232, 206);
+	box-shadow: rgb(224, 217, 224) 10px 10px 5px 0px;
+	display: block;
+	padding: 20px 30px 20px 20px;
+	}
+	.myButton {
+box-shadow: 0px 1px 0px 0px #1c1b18;
+background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+background-color:#eae0c2;
+border-radius:15px;
+display:inline-block;
+cursor:pointer;
+color:#505739;
+font-family:Arial;
+font-size:14px;
+font-weight:bold;
+padding:12px 16px;
+text-decoration:none;
+text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.tagbar {
+	padding-bottom: 15px
+}

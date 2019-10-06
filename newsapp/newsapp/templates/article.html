@@ -1,0 +1,26 @@
+
+<head>
+  <title>{{ title }}</title>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='content.css')}}">
+</head>
+
+<body style="padding: 25px 100px 75px 100px; text-align:center">
+	<div class="container" >
+		<h1>{{ title }}</h1>
+		<form action="/{{news_id}}" method="POST">
+			<div class="tagbar">
+				{% for tag in tags %}
+				<input class="myButton" type="submit" name="submit_button" value="{{ tag }}">
+				{% endfor %}
+			</div>
+		</form>
+		<br>
+		<!-- <form action="/" method="POST" class="w3-container w3-card-4" style="padding: 50px">
+			<input type="text" name="crawl_url" class="w3-input w3-border" placeholder="Paste your URL here (e.g. http://m.hqgq.com/qinpu/51610.html)" /><br>
+			<input type="submit" class="w3-btn w3-blue" style="float:right" value = "Get Music Score!"/>
+		</form> -->
+	<div class="article">
+		{{ article_html|safe }}
+	</div>
+	</div>
+</body>
